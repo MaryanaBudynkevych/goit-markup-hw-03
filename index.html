@@ -39,12 +39,12 @@
         </nav>
 
         <ul class="contacts-primary list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="header-adress link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="item">
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -53,16 +53,20 @@
     <!--Уникальный контент страницы-->
     <main>
       <section class="hero">
-        <h1 class="hero-title">ЭЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="button maine-buton" name="Заказать услугу">
-          Заказать услугу
-        </button>
+        <div class="conteiner">
+          <h1 class="hero-title">
+            ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />
+            ДЛЯ ВАШЕГО БИЗНЕСА
+          </h1>
+          <button class="button maine-buton" name="Заказать услугу">
+            Заказать услугу
+          </button>
+        </div>
       </section>
 
-      <section class="feature">
-        <h2 class="feature-title">Особенности</h2>
-
+      <section class="section">
         <div class="conteiner">
+          <h2 class="feature-title">Особенности</h2>
           <ul class="feature-list list">
             <li class="feature-item">
               <h3 class="title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
@@ -96,7 +100,7 @@
         </div>
       </section>
 
-      <section class="specification">
+      <section class="section specification">
         <div class="conteiner">
           <h2 class="specification-title">Чем мы занимаемся</h2>
 
@@ -126,54 +130,59 @@
         </div>
       </section>
 
-      <section class="team">
+      <section class="section team">
         <div class="conteiner">
           <h2 class="team-title">Наша команда</h2>
-
-          <div>
-            <ul class="team-list list">
-              <li class="team-card">
-                <img
-                  class="team-img"
-                  src="./images/pкoductdesigner.jpg"
-                  alt="Product Designer"
-                  width="270"
-                />
+          <ul class="team-list list">
+            <li class="team-card">
+              <img
+                class="team-img"
+                src="./images/pкoductdesigner.jpg"
+                alt="Product Designer"
+                width="270"
+              />
+              <div class="member-info">
                 <h3 class="team-member">Игорь Демьяненко</h3>
                 <p class="position">Product Designer</p>
-              </li>
-              <li class="team-card">
-                <img
-                  class="team-img"
-                  src="./images/frontenddeveloper.jpg"
-                  alt="Frontend Developer"
-                  width="270"
-                />
+              </div>
+            </li>
+            <li class="team-card">
+              <img
+                class="team-img"
+                src="./images/frontenddeveloper.jpg"
+                alt="Frontend Developer"
+                width="270"
+              />
+              <div class="member-info">
                 <h3 class="team-member">Ольга Репин</h3>
                 <p class="position">Frontend Developer</p>
-              </li>
-              <li class="team-card">
-                <img
-                  class="team-img"
-                  src="./images/marketing.jpg"
-                  alt="Marketing"
-                  width="270"
-                />
+              </div>
+            </li>
+            <li class="team-card">
+              <img
+                class="team-img"
+                src="./images/marketing.jpg"
+                alt="Marketing"
+                width="270"
+              />
+              <div class="member-info">
                 <h3 class="team-member">Николай Тарасов</h3>
                 <p class="position">Marketing</p>
-              </li>
-              <li class="team-card">
-                <img
-                  class="team-img"
-                  src="./images/uidesigner.jpg"
-                  alt="UI Designer"
-                  width="270"
-                />
+              </div>
+            </li>
+            <li class="team-card">
+              <img
+                class="team-img"
+                src="./images/uidesigner.jpg"
+                alt="UI Designer"
+                width="270"
+              />
+              <div class="member-info">
                 <h3 class="team-member">Михаил Ермаков</h3>
                 <p class="position">UI Designer</p>
-              </li>
-            </ul>
-          </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
@@ -185,21 +194,21 @@
           Web<span class="logo-secondary">Studio</span>
         </a>
 
-        <address>
-          <ul class="footer-address list">
-            <li>
+        <address class="footer-address">
+          <ul class="contacts-list list">
+            <li class="contacts">
               <a
                 class="adress"
                 href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li class="contacts-secondary">
+            <li class="contacts contacts-secondary">
               <a href="mailto:info@example.com" class="link"
                 >info@example.com</a
               >
             </li>
-            <li class="contacts-secondary">
+            <li class="contacts contacts-secondary">
               <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </li>
           </ul>
